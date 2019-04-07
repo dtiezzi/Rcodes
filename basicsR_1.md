@@ -1,14 +1,3 @@
----
-title: "basicsR_1"
-author: "Tiezzi_DG"
-date: "4/7/2019"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # R Basics - 1
 ## Data Types and Structures in R
 
