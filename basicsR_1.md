@@ -1,7 +1,7 @@
 # R Basics - 1
 ## Data Types and Structures in R
 
-This is my first post about R and I will be covering an important topic here. R is a abject oriented language. What I mean is every variable in R is an object. So, even a simple integer has attributes. The attribute can be `None` or, be a list of attributes including `names`, `dimnames`, `dim` and `class`.
+This is my first post about R and I will be covering an important topic here. R is a object oriented language. What I mean is every variable in R is an object. So, even a simple integer has attributes. The attribute can be `None` or, be a list of attributes including `names`, `dimnames`, `dim` and `class`.
 
 In R, we have some data types. Everyone is an object from a different class. Let's look at the code bellow:
 
@@ -12,7 +12,7 @@ x
 ```
 
 The `<-` is an assignment signal. You can use  `=` as well.
-So, we are created an object named `x` and assigned it the value `hello R`. In are, you do not have to explicitly define the type of the object. R takes care of it. In this example, `x` is an object from the **character** class.
+So, we created an object named `x` and assigned it the value `hello R`. In R, you do not have to explicitly define the type of the object. R takes care of it. In this example, `x` is an object from the **character** class.
 So, we can use the `class()` function to get the class of a specific object:
 
 ```{r}
@@ -76,7 +76,7 @@ class(c(l1,l2))
 **matrix**
 ```{r}
 vals <- rnorm(100, 10, 2)  # the rnorm() function returns random values with a normal distribution.
-# The rnorm() function arguments are the number of values (100), the mean (10) and the standart deviation (2)
+# The rnorm() function arguments are the number of values (100), the mean (10) and the standard deviation (2)
 m <- matrix(vals, 10, 10) # we pass to the matrix() function the values and the matrix dimension
 m
 class(m)
